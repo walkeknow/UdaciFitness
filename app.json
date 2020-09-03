@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "UdaciFitness",
+    "description": "Triathlon tracker for the determined",
     "slug": "UdaciFitness",
     "platforms": [
       "ios",
@@ -10,6 +11,9 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "notification": {
+      "icon": "./assets/icon.png"
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -22,7 +26,11 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.walkeknowudacifitness.exp",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "org.udacifitness.exp"
     }
   }
 }
